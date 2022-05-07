@@ -1,0 +1,17 @@
+{
+  "name": "ICU",
+  "description": "False privacy",
+  "version": "1.0",
+  "manifest_version": 3,
+"icons": {
+  "16": "/icons/iconmonstr-eye-8-16.png",
+  "32": "/icons/iconmonstr-eye-8-32.png",
+  "48": "/icons/iconmonstr-eye-8-48.png",
+  "128": "/icons/iconmonstr-eye-8-120.png"
+},
+
+  "content_scripts": [{
+    "matches": ["https://www.google.com/*"],
+    "css":["main.css"]
+    }]
+}
